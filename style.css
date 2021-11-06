@@ -45,10 +45,16 @@ img{
     h1{
         font-size: calc(1vW + 1.5rem);
     }
+    h2{
+        font-size: calc(1vW + 1.5rem);
+    }
+    h3{
+        font-size: calc(1vW + 1.5rem);
+    }
     link{
         font-size: calc(.5vW + 1.5rem);
     }
-    a{
+    .image__title{
         font-size: calc(.5vW + 1.5rem);
     }
 }
