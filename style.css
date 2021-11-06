@@ -13,14 +13,14 @@ h1{
     margin-bottom: 50px;
 }
 h2{
-    font-size: 3rem;
+    font-size: 2rem;
     font-family: 'Kanit', sans-serif;
     text-align: center;
     color: whitesmoke;
     margin-bottom: 0px;
 }
 h3{
-    font-size: 2rem;
+    font-size: 1rem;
     font-family: 'Kanit', sans-serif;
     text-align: center;
     color: whitesmoke;
@@ -49,7 +49,7 @@ img{
         font-size: calc(1vW + 1.5rem);
     }
     h3{
-        font-size: calc(1vW + 1.5rem);
+        font-size: calc(.5vW +.5rem);
     }
     link{
         font-size: calc(.5vW + 1.5rem);
