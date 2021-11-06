@@ -1,0 +1,96 @@
+@import 'https://fonts.googleapis.com/css?family=Kanit|Prompt';
+
+body{
+    background-color: black;
+
+}
+h1{
+    font-size: 3rem;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    color: whitesmoke;
+    margin-bottom: 50px;
+}
+h2{
+    font-size: 3rem;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    color: whitesmoke;
+    margin-bottom: 0px;
+}
+h3{
+    font-size: 2rem;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.image{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+@media screen and (max-width:991px){
+    .respondsive{
+        padding: 0px 20px;
+    }
+    h1{
+        font-size: calc(1vW + 1.5rem);
+    }
+    link{
+        font-size: calc(.5vW + 1.5rem);
+    }
+    a{
+        font-size: calc(.5vW + 1.5rem);
+    }
+}
+
+.image__img{
+    display: block;
+    width: 100%;
+}
+
+.image__overlay{
+    position: absolute;
+    top: 0;
+    left:0;
+    width:100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+
+}
+.image__overlay--blur{
+    backdrop-filter: blur(5px);
+}
+
+.image__overlay:hover{
+    opacity: 1;
+}
+.image__title{
+    font-size: 2rem;
+    margin-bottom: 0px;
+}
+
+a{
+    font-size: 1.5rem;
+    color: white;font-family: 'Kanit', sans-serif;
+    color: seashell;
+    margin-top: 0px;
+}
+
+.katyperry .section-bg{background-image: url('./img/internmay.png');}
