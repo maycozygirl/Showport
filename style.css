@@ -4,6 +4,9 @@ body{
     background-color: black;
 
 }
+.text-glow {
+    text-shadow: 0 0 80px rgb(192 219 255 / 75%), 0 0 32px rgb(65 120 255 / 24%);
+  }
 h1{
     font-size: 3rem;
     font-family: 'Kanit', sans-serif;
@@ -99,4 +102,3 @@ a{
     margin-top: 0px;
 }
 
-.katyperry .section-bg{background-image: url('./img/internmay.png');}
